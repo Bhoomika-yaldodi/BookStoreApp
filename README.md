@@ -1,59 +1,32 @@
-# BookStoreAppFrontend
+# 📚 Book Store App
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.0.5.
+A full-stack Book Store web application built using ASP.NET Core MVC for the backend, Angular for the frontend, and SQL Server with Entity Framework Core for database operations.
 
-## Development server
+## 🚀 Tech Stack
 
-To start a local development server, run:
+- **Frontend**: Angular, Bootstrap
+- **Backend**: ASP.NET Core MVC
+- **Database**: SQL Server
+- **ORM**: Entity Framework Core
 
-```bash
-ng serve
-```
+## 💡 Features
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+- View list of books
+- Add/Edit/Delete books (CRUD operations)
+- Search and filter books
 
-## Code scaffolding
+## 🔧 Setup Instructions
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+### Backend
+1. Open the `.sln` file in Visual Studio.
+2. Run the migrations and start the server.
 
-```bash
-ng generate component component-name
-```
+### Frontend
+1. Navigate to `ClientApp` (or your Angular folder)
+2. Run `npm install`
+3. Run `ng serve` to start the frontend
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+## 🧑‍💻 Author
 
-```bash
-ng generate --help
-```
+- Bhoomika K Yaldodi
 
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
